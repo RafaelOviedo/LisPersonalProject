@@ -1,5 +1,5 @@
 <template>
-    <div>Contact Form</div>
+    <div class="contactTitle">Contact Form</div>
 </template>
 
 <script>
@@ -8,4 +8,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.contactTitle {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+</style>

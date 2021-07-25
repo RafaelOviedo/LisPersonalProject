@@ -1,5 +1,5 @@
 <template>
-    <div>Home component</div>
+    <div class="homeTitle">Home component</div>
 </template>
 
 <script>
@@ -8,4 +8,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.homeTitle {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+</style>

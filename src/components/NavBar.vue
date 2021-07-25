@@ -1,12 +1,21 @@
 <template>
-    <nav class="navBar">
-        <div class="logo">LOGO</div>
-        <ul class="itemsBox">
-            <li class="navItems">Home</li>
-            <li class="navItems">Contact Me</li>
-            <li class="navItems">About</li>
-        </ul>
-    </nav>
+    <div>
+        <nav class="navBar">
+            <div class="logo">LOGO</div>
+            <ul class="itemsBox">
+                <router-link class="navItems" :to="{ name: 'Home' }"
+                    >Home</router-link
+                >
+                <router-link class="navItems" :to="{ name: 'ContactForm' }"
+                    >Contact Me</router-link
+                >
+                <router-link class="navItems" :to="{ name: 'About' }"
+                    >About</router-link
+                >
+            </ul>
+        </nav>
+        <router-view />
+    </div>
 </template>
 
 <script>
