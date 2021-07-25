@@ -1,16 +1,16 @@
 <template>
     <div>
-        <LandingPage />
+        <NavBar />
     </div>
 </template>
 
 <script>
-import LandingPage from "./views/LandingPage.vue";
+import NavBar from "./components/NavBar.vue";
 
 export default {
     name: "App",
     components: {
-        LandingPage,
+        NavBar,
     },
 };
 </script>
